@@ -662,10 +662,13 @@ a.totop-link {
     width: 65%;
 }
 .skill-list ul li:before {
-    content: "\f0da";
+    list-style-image: url("../images/caret-right.png");
     font-family: 'Font Awesome 5 Free';
     font-size: 15px;
     margin: 0 5px 0 0
+}
+.skill-list ul li {
+    list-style-image: url("../images/caret-right.png");
 }
 .skills-con .col-6:hover .chart .percent {
     font-size: 45px;
